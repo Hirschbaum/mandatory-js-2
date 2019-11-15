@@ -1,5 +1,66 @@
-.container {
-    width: 300px;
-    height: 300px;
+body, button {
     margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    display: border-box;
+    width: 310px;
+    height: 310px;
+    margin: auto;
+}
+
+h2, p {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+/*-------- Board rows and columns ---------*/
+
+.border-bottom {
+    border-bottom: 5px solid #6b6a6a;
+}
+
+.row {
+    height: 100px;
+}
+
+.column {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+    /*color: #aaaaaa;*/
+}
+
+.column:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.border-col {
+    border-right: 5px solid #6b6a6a;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    background-color: #6b6a6a;
+    border: 1px solid #6b6a6a;
+}
+
+button:hover {
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    cursor: pointer;
 }
