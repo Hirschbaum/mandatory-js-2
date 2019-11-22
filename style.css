@@ -64,3 +64,9 @@ button:hover {
     border: 1px solid darkcyan;
     cursor: pointer;
 }
+
+/*------add this class to the winner columns -----*/
+
+.winner {
+    color: red;
+}
